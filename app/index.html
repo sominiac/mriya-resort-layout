@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mriya Resort</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main-page">
+
+    <header class="header">
+        <button class="burger-menu"></button>
+
+        <div class="container header__container">
+            <div class="header__inner">
+                <ul class="menu header__menu">
+                    <li class="menu__list">
+                        <a class="menu__link" href="#">О комплексе</a>
+                    </li>
+
+                    <li class="menu__list">
+                        <a class="menu__link" href="#">Блог</a>
+                    </li>
+
+                    <li class="menu__list">
+                        <a class="menu__link" href="#">FAQ</a>
+                    </li>
+
+                    <li class="menu__list">
+                        <a class="menu__link" href="#">Контакты</a>
+                    </li>
+                </ul>
+
+                <div class="logo header__logo">
+                    <img class="logo__image" src="./assets/images/logo.svg" alt="#">
+                </div>
+
+                <div class="languages">
+                    <button class="languages__button languages__button_active">ru</button>
+
+                    <button class="languages__button">eng</button>
+                </div>
+
+                <ul class="menu header__menu">
+                    <li class="menu__list menu__list_white menu__list_login">
+                        <a class="menu__link menu__link_dashed" href="#">Вход</a>
+                    </li>
+
+                    <li class="menu__list menu__list_white">
+                        <a class="menu__link" href="tel:8 800 500 6847">8 800 500 6847</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <button class="mobile-login"></button>
+    </header>
+
+    <section class="first-frame">
+        <div class="container">
+            <div class="first-frame__inner">
+                <div class="first-frame__info">
+                    <h2 class="first-frame__heading">Family & Health Club</h2>
+
+                    <h1 class="first-frame__title">Mriya<br>Resort</h1>
+
+                    <p class="first-frame__text">
+                        Российский курорт для всей семьи на берегу черного моря
+                    </p>
+                </div>
+
+                <div class="first-frame__buttons">
+                    <div class="first-frame__buttons-wrapper">
+                        <button class="first-frame__button first-frame__button_colored">Найти номер</button>
+
+                        <button class="first-frame__button">3D тур</button>
+                    </div>
+
+                    <span class="line first-frame__line"></span>
+
+                    <button class="first-frame__button first-frame__button_arrow_down"></button>
+                </div>
+
+                <ul class="menu first-frame__menu">
+                    <li class="menu__list menu__list_circle first-frame__menu-list">
+                        <a class="menu__link menu__link_facebook first-frame__menu-link" href="#"></a>
+                    </li>
+
+                    <li class="menu__list menu__list_circle first-frame__menu-list">
+                        <a class="menu__link menu__link_twitter first-frame__menu-link" href="#"></a>
+                    </li>
+
+                    <li class="menu__list menu__list_circle first-frame__menu-list">
+                        <a class="menu__link menu__link_instagram first-frame__menu-link" href="#"></a>
+                    </li>
+                </ul>
+
+                <div class="weather">
+                    <div class="weather__inner">
+                        <h2 class="weather__degrees">27°</h2>
+
+                        <p class="weather__expect">
+                            Облачно
+                        </p>
+
+                        <p class="weather__metadata">
+                            Ялта, Россия
+                        </p>
+                    </div>
+                </div>
+
+                <img class="first-frame__image" src="./assets/images/flower.png" alt="#">
+                <img class="first-frame__image_mobile" src="./assets/images/mobile-flower.png" alt="#">
+            </div>
+        </div>
+    </section>
+
+    <section class="choose">
+        <div class="container">
+            <div class="choose__inner">
+                <h2 class="choose__title">Выберите свой отдых</h2>
+
+                <form class="choose__form" name="choose__form" action="#">
+                    <select class="choose__form-input choose__form-select" name="" id="">
+                        <option class="choose__form-option" value="Family vacation">Семейный отдых</option>
+                    </select>
+
+                    <div class="choose__form-input">
+                        <p class="choose__form-text">
+                            пт, 8 мая — вс, 17 мая
+                        </p>
+                    </div>
+
+                    <div class="choose__form-input">
+                        <p class="choose__form-text">
+                            2 взрослых&nbsp • &nbspбез детей&nbsp • &nbsp1 номер
+                        </p>
+                    </div>
+
+                    <button class="choose__form-button" type="submit">Найти</button>
+                </form>
+
+                <div class="specification">
+                    <div class="specification__categories">
+                        <ul class="menu">
+                            <li class="menu__list specification__menu-list specification__menu-list_active">
+                                Спецпредложения</li>
+
+                            <li class="menu__list specification__menu-list">Афиша</li>
+
+                            <li class="menu__list specification__menu-list">Категории отдыха</li>
+                        </ul>
+
+                        <div class="specification__buttons">
+                            <button class="specification__button specification__button_left_arrow"></button>
+                            <button class="specification__button specification__button_right_arrow"></button>
+                        </div>
+                    </div>
+
+                    <div class="specification__content">
+                        <div class="specification__item">
+                            <img class="specification__item-image" src="./assets/images/1.jpg" alt="#">
+
+                            <div class="specification__item-information">
+                                <h2 class="specification__item-discount">-20%</h2>
+
+                                <p class="specification__item-text">
+                                    Для тех кто<br>рядом
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="specification__item">
+                            <img class="specification__item-image" src="./assets/images/2.jpg" alt="#">
+
+                            <div class="specification__item-information">
+                                <h2 class="specification__item-discount">-10%</h2>
+
+                                <p class="specification__item-text">
+                                    Раннее<br>бронирование
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="information">
+        <div class="container">
+            <div class="information__inner">
+                <h2 class="information__title">Mriya Resort & SPA —<br><span
+                        class="information__title information__title_bold">больше чем просто отдых</span></h2>
+
+                <div class="information__icon"></div>
+
+                <div class="information__wrapper">
+                    <p class="information__text">
+                        В окружении необычного природного ландшафта курорт становится по-настоящему уникальным. Это
+                        место
+                        идеально
+                        для тех, кто больше гор любит только море.
+                    </p>
+                </div>
+
+                <button class="information__button">О комплексе</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="allinclusive">
+        <div class="container">
+            <div class="allinclusive__inner">
+                <div class="allinclusive__wrapper">
+                    <h2 class="allinclusive__title">Все включено</h2>
+
+                    <div class="allinclusive__triggers">
+                        <button class="allinclusive__button allinclusive__button_left"></button>
+
+                        <button class="allinclusive__button allinclusive__button_right"></button>
+                    </div>
+                </div>
+
+                <div class="allinclusive__slider">
+                    <div class="allinclusive__slide">
+                        <div class="allinclusive__slide-item">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Заниматесь в тренажерном зале и посещайте групповые тренировки
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+
+                        <div class="allinclusive__slide-wrapper">
+                            <p class="allinclusive__slide-wrapper-subtitle">
+                                Оздоровление
+                            </p>
+
+                            <p class="allinclusive__slide-wrapper-title">
+                                Mriya Resort — это маленький город со множеством возможностей, каждый найдет себе
+                                занятие по вкусу
+                            </p>
+
+                            <div class="allinclusive__slide-item">
+                                <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide2.jpg"
+                                    alt="#">
+
+                                <p class="allinclusive__item-text">
+                                    Питаться в ресторане шведской линии согласно выбранному варианту
+                                </p>
+
+                                <a class="allinclusive__item-link" href="#">Читать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="allinclusive__slide-item allinclusive__slide-item_colored">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide3.jpg" alt="#">
+                            <img class="allinclusive__item-image_mobile" src="./assets/images/1.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Исследовать все общедоступные зоны и территории комплекса
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="allinclusive__slide hidden">
+                        <div class="allinclusive__slide-item">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Заниматесь в тренажерном зале и посещайте групповые тренировки
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+
+                        <div class="allinclusive__slide-wrapper">
+                            <p class="allinclusive__slide-wrapper-subtitle">
+                                Оздоровление
+                            </p>
+
+                            <p class="allinclusive__slide-wrapper-title">
+                                Mriya Resort — это маленький город со множеством возможностей, каждый найдет себе
+                                занятие по вкусу
+                            </p>
+
+                            <div class="allinclusive__slide-item">
+                                <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide2.jpg"
+                                    alt="#">
+
+                                <p class="allinclusive__item-text">
+                                    Питаться в ресторане шведской линии согласно выбранному варианту
+                                </p>
+
+                                <a class="allinclusive__item-link" href="#">Читать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="allinclusive__slide-item allinclusive__slide-item_colored">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide3.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Исследовать все общедоступные зоны и территории комплекса
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+                    </div>
+
+                    <div class="allinclusive__slide hidden">
+                        <div class="allinclusive__slide-item">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Заниматесь в тренажерном зале и посещайте групповые тренировки
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+
+                        <div class="allinclusive__slide-wrapper">
+                            <p class="allinclusive__slide-wrapper-subtitle">
+                                Оздоровление
+                            </p>
+
+                            <p class="allinclusive__slide-wrapper-title">
+                                Mriya Resort — это маленький город со множеством возможностей, каждый найдет себе
+                                занятие по вкусу
+                            </p>
+
+                            <div class="allinclusive__slide-item">
+                                <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide2.jpg"
+                                    alt="#">
+
+                                <p class="allinclusive__item-text">
+                                    Питаться в ресторане шведской линии согласно выбранному варианту
+                                </p>
+
+                                <a class="allinclusive__item-link" href="#">Читать больше</a>
+                            </div>
+                        </div>
+
+                        <div class="allinclusive__slide-item allinclusive__slide-item_colored">
+                            <img class="allinclusive__item-image" src="./assets/images/allinclusive-slide3.jpg" alt="#">
+
+                            <p class="allinclusive__item-text">
+                                Исследовать все общедоступные зоны и территории комплекса
+                            </p>
+
+                            <a class="allinclusive__item-link" href="#">Читать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tablet">
+        <img class="tablet__image" src="./assets/images/tablet.png" alt="#">
+
+        <div class="logo tablet__logo">
+            <img class="logo__image tablet__logo-image" src="./assets/images/logo.svg" alt="#">
+        </div>
+    </section>
+
+    <div class="modal-menu hidden">
+        <div class="modal-menu__window">
+            <header class="header modal-menu__header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="logo modal-menu__logo">
+                            <img class="logo__image modal-menu__logo-image" src="./assets/images/logo.svg" alt="#">
+                        </div>
+
+                        <ul class="menu modal-menu__menu">
+                            <li class="menu__list menu__list_white modal-menu__menu-list">
+                                <a class="menu__link" href="#">О комплексе</a>
+                            </li>
+
+                            <li class="menu__list menu__list_white modal-menu__menu-list">
+                                <a class="menu__link" href="#">Блог</a>
+                            </li>
+
+                            <li class="menu__list menu__list_white modal-menu__menu-list">
+                                <a class="menu__link" href="#">FAQ</a>
+                            </li>
+
+                            <li class="menu__list menu__list_white modal-menu__menu-list">
+                                <a class="menu__link" href="#">Контакты</a>
+                            </li>
+
+                            <li class="menu__list menu__list_white menu__list_login modal-menu__menu-list">
+                                <a class="menu__link menu__link_dashed" href="#">Вход</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div class="modal-menu__wrapper">
+                <div class="container">
+                    <div class="modal-menu__inner">
+                        <aside class="social">
+                            <span class="line social__line"></span>
+
+                            <ul class="menu social__menu">
+                                <li class="menu__list menu__list_circle social__menu-list">
+                                    <a class="menu__link menu__link_facebook_colored social__menu-link" href="#"></a>
+                                </li>
+
+                                <li class="menu__list menu__list_circle social__menu-list">
+                                    <a class="menu__link menu__link_twitter_colored social__menu-link" href="#"></a>
+                                </li>
+
+                                <li class="menu__list menu__list_circle social__menu-list">
+                                    <a class="menu__link menu__link_instagram_colored social__menu-link" href="#"></a>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <main class="modal-menu__main">
+                            <ul class="menu modal-menu__main-menu">
+                                <li class="modal-menu__list modal-menu__main-menu-list">Размещение</li>
+
+                                <li
+                                    class="modal-menu__list modal-menu__main-menu-list modal-menu__main-menu-list_select">
+                                    Медицина</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Мероприятия</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Красота и восстановление</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Бары и рестораны</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Развлечения</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Спорт</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Детям</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Транспорт</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Размещение</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Медицина</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Мероприятия</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Красота и восстановление</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Бары и рестораны</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Развлечения</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Спорт</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Детям</li>
+
+                                <li class="modal-menu__list modal-menu__main-menu-list">Транспорт</li>
+                            </ul>
+
+                            <div class="modal-menu__information">
+                                <ul class="menu modal-menu__information-menu">
+                                    <li class="modal-menu__list modal-menu__information-menu-list">Клиника
+                                        персонализированной медицины</li>
+
+                                    <li class="modal-menu__list modal-menu__information-menu-list">Медицинский центр
+                                    </li>
+                                </ul>
+
+                                <p class="modal-menu__text">
+                                    Международные стандарты лечения и современные методики в сочетании с высококлассным
+                                    сервисом и проживанием в одном из лучших семейных курортов мира Mriya Resort & SPA
+                                    5*
+                                </p>
+                            </div>
+
+                            <div class="modal-menu__slider">
+                                <div class="modal-menu__slide">
+                                    <img class="modal-menu__slide-image" src="./assets/images/header-slide.jpg" alt="#">
+
+                                    <div class="modal-menu__slide-info">
+                                        <h2 class="modal-menu__slide-title">Антистресс</h2>
+
+                                        <p class="modal-menu__slide-text">
+                                            10-21 дня
+                                        </p>
+
+                                        <button class="modal-menu__slide-button">Подробнее</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal-menu__slide hidden">
+                                    <img class="modal-menu__slide-image" src="./assets/images/header-slide.jpg" alt="#">
+
+                                    <div class="modal-menu__slide-info">
+                                        <h2 class="modal-menu__slide-title">Антистресс</h2>
+
+                                        <p class="modal-menu__slide-text">
+                                            10-21 дня
+                                        </p>
+
+                                        <button class="modal-menu__slide-button">Подробнее</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal-menu__slide hidden">
+                                    <img class="modal-menu__slide-image" src="./assets/images/header-slide.jpg" alt="#">
+
+                                    <div class="modal-menu__slide-info">
+                                        <h2 class="modal-menu__slide-title">Антистресс</h2>
+
+                                        <p class="modal-menu__slide-text">
+                                            10-21 дня
+                                        </p>
+
+                                        <button class="modal-menu__slide-button">Подробнее</button>
+                                    </div>
+                                </div>
+
+                                <div class="modal-menu__slider-triggers">
+                                    <button
+                                        class="modal-menu__slider-trigger modal-menu__slider-trigger_select"></button>
+
+                                    <button class="modal-menu__slider-trigger"></button>
+
+                                    <button class="modal-menu__slider-trigger"></button>
+                                </div>
+                            </div>
+                        </main>
+
+                        <div class="modal-menu__mail">
+                            <a class="modal-menu__mail-link" href="mailto:info@mriyaresort.com">info@mriyaresort.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="modal-menu__button-close"></button>
+        </div>
+    </div>
+
+</body>
+
+</html>
